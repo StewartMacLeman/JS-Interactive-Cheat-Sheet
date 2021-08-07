@@ -23,7 +23,7 @@ h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.5rem; }
 p { font-size: 1.5rem; }
-code {font-size: 1.5rem; }
+code {font-size: 1.25rem; }
 li {font-size: 1.5rem; }
 button { font-size: 1.25rem; }
 
@@ -83,7 +83,6 @@ h1, h2, h3, h4, p, li, button {
  a:hover {
    font-weight: bold;
    background-color: lightsteelblue;
-   /* text-decoration: underline; */
  }
  /* The main container. ------------------------------------- */
  .main {
@@ -101,6 +100,7 @@ h1, h2, h3, h4, p, li, button {
  /* Individual sections container. --------------------- */
 .jsTopicCont {
   width: 90%;
+  padding: .25rem;
   border: .15rem solid black;
   background-color: white;
   border-radius: 10px;
@@ -109,12 +109,19 @@ h1, h2, h3, h4, p, li, button {
   align-items: center;
 }
 .jsTopicCont * {
-  margin: .3rem auto;
-  border: .15rem solid var(--greyBorder);
+  margin: .15rem auto;
 }
-.codeExample {
+.codeExampleCont, .codeOutcomeCont {
+  width: 100%;
+  margin: 0 auto;
+  /* border: .15rem solid var(--greyBorder); */
+  overflow-y: hidden;
+  overflow-x: scroll;
   display: flex;
-  flex-direction: column;
+}
+.codeExampleCont, .codeOutcomeCont, .jsTopicCont button {
+  position: relative;
+  top: -1.25rem;
 }
 code {
   padding: 0.25rem 0.5rem;
