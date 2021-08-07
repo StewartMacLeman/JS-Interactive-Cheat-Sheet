@@ -1,3 +1,143 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+:root {
+  /* --palegreen: rgba(152, 251, 152, 0.4); */
+  --greyBorder : rgba(128, 128, 128, 0.4);
+}
+
 body {
-  background-color: pink;
+  min-height: 98%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.5rem; }
+p { font-size: 1.5rem; }
+code {font-size: 1.5rem; }
+li {font-size: 1.5rem; }
+button { font-size: 1.25rem; }
+
+h1, h2, h3, h4, p, li, button {
+  font-family: helvetica, tahoma, serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: .25rem;
+  background-color: none;
+}
+/* Button styles. ---------------------------------------- */
+ button {
+   background-color: black;
+   color: white;
+   border-radius: 8px;
+ }
+ button:hover {
+   background-color: white;
+   color: black;
+   cursor: pointer;
+ }
+ /* The header container. ---------------------------------- */
+ .header {
+   width: 100%;
+   background-color: lightsteelblue;
+   border-bottom: .25rem solid black;
+   padding-bottom: .25rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .header h1 {
+   text-shadow: 0 0.15rem white, 0.15rem 0 white, 0 -0.15rem white, -0.15rem 0 white;
+ }
+ .header button {
+   width: 30%;
+   margin-bottom: .5rem;
+ }
+ .navigation {
+   width: 80%;
+   background-color: white;
+   border: .25rem solid black;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ ul {
+   list-style: none;
+   margin: 0 auto;
+   padding: 0;
+ }
+ a {
+   text-decoration: none;
+   color: inherit;
+ }
+ a:hover {
+   font-weight: bold;
+   background-color: lightsteelblue;
+   /* text-decoration: underline; */
+ }
+ /* The main container. ------------------------------------- */
+ .main {
+   width: 80%;
+   height: 80vh;
+   overflow-y: scroll;
+   margin-top: 1rem;
+   background-color: lightsteelblue;
+   border: .25rem solid black;
+   border-radius: 10px;
+ }
+ .main * {
+   margin: 1rem auto;
+ }
+ /* Individual sections container. --------------------- */
+.jsTopicCont {
+  width: 90%;
+  border: .15rem solid black;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jsTopicCont * {
+  margin: .3rem auto;
+  border: .15rem solid var(--greyBorder);
+}
+.codeExample {
+  display: flex;
+  flex-direction: column;
+}
+code {
+  padding: 0.25rem 0.5rem;
+}
+/* The hide class. ---------------------------------------------*/
+.hide {
+  display: none;
+}
+/* Media queries.----------------------------------------------- */
+@media screen and (max-width: 850px){
+  .main, .navigation { width: 90%; }
+}
+@media screen and (max-width: 650px){
+  html { font-size: 12px; }
+
+  .main *, .mkTopicCont *  {
+    border-radius: 8px;
+  }
+  button { border-radius: 6px; }
+}
+@media screen and (max-width: 550px){
+  .main, .navigation { width: 96%; }
+}
+@media screen and (max-width: 450px){
+  html { font-size: 10px; }
 }

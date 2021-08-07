@@ -12,10 +12,45 @@
   </head>
 
   <body>
-    <h1>This is a h1</h1>
-    <h2>This is a h2</h2>
-    <p>This is a paragraph</p>
-    <button type="button">This is a button</button>
+
+    <header class="header">
+      <h1>JS Cheat-Sheet: Home</h1>
+      <button type="button" class="navButton">Show Nav</button>
+
+      <nav class="navigation hide">
+        <ul>
+          <li><a href="#">Topic</a></li>
+          <li><a href="#">Topic</a></li>
+          <li><a href="#">Topic</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main class="main" id="mainCont">
+      <h2>How to use this site!</h2>
+      <!-- The topics are appended here! -->
+
+      <div class="jsTopicCont">
+
+        <h3>This is the an Example</h3>
+
+        <div class="codeExample">
+          <h4>The Code:</h4>
+          <code>console.log("Hello");</code>
+        </div>
+
+        <button type="button">Show Outcome</button>
+
+        <div class="codeExample">
+          <h4>The Outcome:</h4>
+          <code>"Hello";</code>
+        </div>
+
+      </div>
+
+    </main>
+
 
   </body>
 </html>
