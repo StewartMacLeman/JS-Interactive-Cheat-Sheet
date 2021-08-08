@@ -6,7 +6,7 @@
     <meta name="author" content="Stewart MacLeman">
     <meta name="description" content="A JavaScript Cheat-Sheet.">
     <link rel="stylesheet" href="../styles.css">
-    <script src="../scripts/01_typeof.js" defer></script>
+    <script src="../scripts/03_comparisonOperators.js" defer></script>
     <script src="../main.js" defer></script>
 
     <title>JS Cheat-Sheet</title>
@@ -15,16 +15,15 @@
   <body>
 
     <header class="header">
-      <h1>JS Cheat-Sheet: "typeof" Operator</h1>
+      <h1>JS Cheat-Sheet: Comparison Operators</h1>
       <button type="button" class="navButton">Show Nav</button>
 
       <nav class="navigation hide">
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li><a href="#">"typeof" Operator</a></li>
+          <li><a href="./01_typeof.html">"typeof" Operator</a></li>
           <li><a href="./02_numberOperators.html">Number Operators</a></li>
-          <li><a href="./03_comparisonOperators.html">Comparison Operators</a></li>
-
+          <li><a href="#">Comparison Operators</a></li>
         </ul>
       </nav>
     </header>
@@ -34,11 +33,11 @@
       <h2>Scroll-down to view!</h2>
       <!-- ///////////////////////////////////////////////////// -->
       <div class="jsTopicCont">
-        <h3>typeof Operator: Strings</h3>
+        <h3>Comparison Operators: >=</h3>
 
         <div class="codeExampleCont">
           <!-- The example code. -->
-          <div id="typeofCode_1"></div>
+          <div id="compOpCode_1"></div>
         </div>
         <!-- Displays the code outcome. -->
         <button type="button" class="outcomeBut">Show Outcome</button>
@@ -46,17 +45,17 @@
         <div class="hide">
           <div class="codeOutcomeCont">
             <!-- The result. -->
-            <div id="typeofOutput_1"></div>
+            <div id="compOpOutput_1"></div>
           </div>
         </div>
       </div>
       <!-- ///////////////////////////////////////////////////// -->
       <div class="jsTopicCont">
-        <h3>typeof Operator: Numbers</h3>
+        <h3>Comparison Operators: ==</h3>
 
         <div class="codeExampleCont">
           <!-- The example code. -->
-          <div id="typeofCode_2"></div>
+          <div id="compOpCode_2"></div>
         </div>
         <!-- Displays the code outcome. -->
         <button type="button" class="outcomeBut">Show Outcome</button>
@@ -64,17 +63,17 @@
         <div class="hide">
           <div class="codeOutcomeCont">
             <!-- The result. -->
-            <div id="typeofOutput_2"></div>
+            <div id="compOpOutput_2"></div>
           </div>
         </div>
       </div>
       <!-- ///////////////////////////////////////////////////// -->
       <div class="jsTopicCont">
-        <h3>typeof Operator: Booleans</h3>
+        <h3>Comparison Operators: ===</h3>
 
         <div class="codeExampleCont">
           <!-- The example code. -->
-          <div id="typeofCode_3"></div>
+          <div id="compOpCode_3"></div>
         </div>
         <!-- Displays the code outcome. -->
         <button type="button" class="outcomeBut">Show Outcome</button>
@@ -82,17 +81,17 @@
         <div class="hide">
           <div class="codeOutcomeCont">
             <!-- The result. -->
-            <div id="typeofOutput_3"></div>
+            <div id="compOpOutput_3"></div>
           </div>
         </div>
       </div>
       <!-- ///////////////////////////////////////////////////// -->
       <div class="jsTopicCont">
-        <h3>typeof Operator: Null</h3>
+        <h3>Comparison Operators: !=</h3>
 
         <div class="codeExampleCont">
           <!-- The example code. -->
-          <div id="typeofCode_4"></div>
+          <div id="compOpCode_4"></div>
         </div>
         <!-- Displays the code outcome. -->
         <button type="button" class="outcomeBut">Show Outcome</button>
@@ -100,17 +99,17 @@
         <div class="hide">
           <div class="codeOutcomeCont">
             <!-- The result. -->
-            <div id="typeofOutput_4"></div>
+            <div id="compOpOutput_4"></div>
           </div>
         </div>
       </div>
       <!-- ///////////////////////////////////////////////////// -->
       <div class="jsTopicCont">
-        <h3>typeof Operator: Undefined</h3>
+        <h3>Comparison Operators: !=</h3>
 
         <div class="codeExampleCont">
           <!-- The example code. -->
-          <div id="typeofCode_5"></div>
+          <div id="compOpCode_5"></div>
         </div>
         <!-- Displays the code outcome. -->
         <button type="button" class="outcomeBut">Show Outcome</button>
@@ -118,17 +117,17 @@
         <div class="hide">
           <div class="codeOutcomeCont">
             <!-- The result. -->
-            <div id="typeofOutput_5"></div>
+            <div id="compOpOutput_5"></div>
           </div>
         </div>
       </div>
       <!-- ///////////////////////////////////////////////////// -->
       <div class="jsTopicCont">
-        <h3>typeof Operator: Objects</h3>
+        <h3>Comparison Operators: !=</h3>
 
         <div class="codeExampleCont">
           <!-- The example code. -->
-          <div id="typeofCode_6"></div>
+          <div id="compOpCode_6"></div>
         </div>
         <!-- Displays the code outcome. -->
         <button type="button" class="outcomeBut">Show Outcome</button>
@@ -136,17 +135,17 @@
         <div class="hide">
           <div class="codeOutcomeCont">
             <!-- The result. -->
-            <div id="typeofOutput_6"></div>
+            <div id="compOpOutput_6"></div>
           </div>
         </div>
       </div>
       <!-- ///////////////////////////////////////////////////// -->
       <div class="jsTopicCont">
-        <h3>typeof Operator: Arrays</h3>
+        <h3>Comparison Operators: !==</h3>
 
         <div class="codeExampleCont">
           <!-- The example code. -->
-          <div id="typeofCode_7"></div>
+          <div id="compOpCode_7"></div>
         </div>
         <!-- Displays the code outcome. -->
         <button type="button" class="outcomeBut">Show Outcome</button>
@@ -154,43 +153,7 @@
         <div class="hide">
           <div class="codeOutcomeCont">
             <!-- The result. -->
-            <div id="typeofOutput_7"></div>
-          </div>
-        </div>
-      </div>
-      <!-- ///////////////////////////////////////////////////// -->
-      <div class="jsTopicCont">
-        <h3>typeof Operator: Symbols</h3>
-
-        <div class="codeExampleCont">
-          <!-- The example code. -->
-          <div id="typeofCode_8"></div>
-        </div>
-        <!-- Displays the code outcome. -->
-        <button type="button" class="outcomeBut">Show Outcome</button>
-
-        <div class="hide">
-          <div class="codeOutcomeCont">
-            <!-- The result. -->
-            <div id="typeofOutput_8"></div>
-          </div>
-        </div>
-      </div>
-      <!-- ///////////////////////////////////////////////////// -->
-      <div class="jsTopicCont">
-        <h3>typeof Operator: NaN</h3>
-
-        <div class="codeExampleCont">
-          <!-- The example code. -->
-          <div id="typeofCode_9"></div>
-        </div>
-        <!-- Displays the code outcome. -->
-        <button type="button" class="outcomeBut">Show Outcome</button>
-
-        <div class="hide">
-          <div class="codeOutcomeCont">
-            <!-- The result. -->
-            <div id="typeofOutput_9"></div>
+            <div id="compOpOutput_7"></div>
           </div>
         </div>
       </div>
