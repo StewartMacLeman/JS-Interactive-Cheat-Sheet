@@ -118,6 +118,8 @@ h1, h2, h3, h4, p, li, button {
   overflow-y: hidden;
   overflow-x: scroll;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .codeExampleCont, .codeOutcomeCont, .jsTopicCont button {
   position: relative;

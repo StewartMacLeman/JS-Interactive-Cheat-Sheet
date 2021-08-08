@@ -171,6 +171,7 @@ let coloursArray = ["blue", "green", "yellow", "orange"];
 let outcomeTypeof_7 = whatIsTheType(coloursArray);
 outcomeTypeofDiv_7.innerHTML = `outcome: <code><b>${outcomeTypeof_7}</b></code>`;
 // /////////////////////////////////////////////////////////////////////
+
 // Typeof: Symbols. ---------------------------------------------------
 let codeTypeofDiv_8 = document.getElementById("typeofCode_8");
 let outcomeTypeofDiv_8 = document.getElementById("typeofOutput_8");
@@ -193,4 +194,27 @@ let nameSymbol = Symbol();
 // Refer to the "whatIsTheType" function above.
 let outcomeTypeof_8 = whatIsTheType(nameSymbol);
 outcomeTypeofDiv_8.innerHTML = `outcome: <code>${outcomeTypeof_8}</code>`;
+// /////////////////////////////////////////////////////////////////////
+
+// Typeof: NaN. ---------------------------------------------------
+let codeTypeofDiv_9 = document.getElementById("typeofCode_9");
+let outcomeTypeofDiv_9 = document.getElementById("typeofOutput_9");
+
+// Adds the example code to the html page. ----------------------------
+let codeTypeofExample_9 =
+`<pre><code>
+function whatIsTheType() {
+  return <b>typeof</b> NaN;
+};
+let outcome = whatIsTheType();
+</code></pre>`;
+
+codeTypeofDiv_9.innerHTML = codeTypeofExample_9;
+
+// Runs the function and adds the answer to the html page. -------
+function whatIsTheTypeV2() {
+  return typeof NaN;
+};
+let outcomeTypeof_9 = whatIsTheTypeV2();
+outcomeTypeofDiv_9.innerHTML = `outcome: <code><b>${outcomeTypeof_9}</b></code>`;
 // /////////////////////////////////////////////////////////////////////

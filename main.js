@@ -32,12 +32,12 @@
 
    let button = e.target;
    let buttonText = e.target.textContent;
-   let hide = "Hide Output";
-   let show = "Show Output";
+   let hide = "Hide Outcome";
+   let show = "Show Outcome";
 
-   if ( buttonText == "Show Output" ){
+   if ( buttonText == "Show Outcome" ){
      button.textContent = hide;
-   } else if ( buttonText == "Hide Output" ){
+   } else if ( buttonText == "Hide Outcome" ){
      button.textContent = show;
    }
  }
