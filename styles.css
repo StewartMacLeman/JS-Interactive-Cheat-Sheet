@@ -6,7 +6,6 @@ html {
   box-sizing: inherit;
 }
 :root {
-  /* --palegreen: rgba(152, 251, 152, 0.4); */
   --greyBorder : rgba(128, 128, 128, 0.4);
 }
 
@@ -23,8 +22,9 @@ h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.5rem; }
 p { font-size: 1.5rem; }
-code {font-size: 1.25rem; }
-li {font-size: 1.5rem; }
+code { font-size: 1.25rem; }
+div { font-size: 1.25rem; }
+li { font-size: 1.5rem; }
 button { font-size: 1.25rem; }
 
 h1, h2, h3, h4, p, li, button {
@@ -122,6 +122,9 @@ h1, h2, h3, h4, p, li, button {
 .codeExampleCont, .codeOutcomeCont, .jsTopicCont button {
   position: relative;
   top: -1.25rem;
+}
+.codeExampleCont div, .codeOutcomeCont div {
+  font-family: helvetica, tahoma, serif;
 }
 code {
   padding: 0.25rem 0.5rem;
