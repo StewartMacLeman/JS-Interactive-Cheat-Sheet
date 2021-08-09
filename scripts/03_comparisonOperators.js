@@ -1,6 +1,6 @@
 "use strict";
 
-// Number Operators: >= -------------------------------------------
+// Comparison Operators: >= -------------------------------------------
 let codeCompOpDiv_1 = document.getElementById("compOpCode_1");
 let outcomeCompOpDiv_1 = document.getElementById("compOpOutput_1");
 
@@ -30,7 +30,7 @@ let outcomeCompOp_1 = compare(compOneEx1, compTwoEx1);
 outcomeCompOpDiv_1.innerHTML = `outcome: <code>${outcomeCompOp_1}</code>`;
 // /////////////////////////////////////////////////////////////////////
 
-// Number Operators: == -------------------------------------------
+// Comparison Operators: == -------------------------------------------
 let codeCompOpDiv_2 = document.getElementById("compOpCode_2");
 let outcomeCompOpDiv_2 = document.getElementById("compOpOutput_2");
 
@@ -60,7 +60,7 @@ let outcomeCompOp_2 = compareV2(compOneEx2, compTwoEx2);
 outcomeCompOpDiv_2.innerHTML = `outcome: <code>${outcomeCompOp_2}</code>`;
 // /////////////////////////////////////////////////////////////////////
 
-// Number Operators: === -------------------------------------------
+// Comparison Operators: === -------------------------------------------
 let codeCompOpDiv_3 = document.getElementById("compOpCode_3");
 let outcomeCompOpDiv_3 = document.getElementById("compOpOutput_3");
 
@@ -90,7 +90,7 @@ let outcomeCompOp_3 = compareV3(compOneEx3, compTwoEx3);
 outcomeCompOpDiv_3.innerHTML = `outcome: <code>${outcomeCompOp_3}</code>`;
 // /////////////////////////////////////////////////////////////////////
 
-// Number Operators: != V1-------------------------------------------
+// Comparison Operators: != V1-------------------------------------------
 let codeCompOpDiv_4 = document.getElementById("compOpCode_4");
 let outcomeCompOpDiv_4 = document.getElementById("compOpOutput_4");
 
@@ -120,7 +120,7 @@ let outcomeCompOp_4 = compareV4(compOneEx4, compTwoEx4);
 outcomeCompOpDiv_4.innerHTML = `outcome: <code>${outcomeCompOp_4}</code>`;
 // /////////////////////////////////////////////////////////////////////
 
-// Number Operators: != V2 -------------------------------------------
+// Comparison Operators: != V2 -------------------------------------------
 let codeCompOpDiv_5 = document.getElementById("compOpCode_5");
 let outcomeCompOpDiv_5 = document.getElementById("compOpOutput_5");
 
@@ -150,7 +150,7 @@ let outcomeCompOp_5 = compareV5(compOneEx5, compTwoEx5);
 outcomeCompOpDiv_5.innerHTML = `outcome: <code>${outcomeCompOp_5}</code>`;
 // /////////////////////////////////////////////////////////////////////
 
-// Number Operators: != V3 -------------------------------------------
+// Comparison Operators: != V3 -------------------------------------------
 let codeCompOpDiv_6 = document.getElementById("compOpCode_6");
 let outcomeCompOpDiv_6 = document.getElementById("compOpOutput_6");
 
@@ -180,7 +180,7 @@ let outcomeCompOp_6 = compareV6(compOneEx6, compTwoEx6);
 outcomeCompOpDiv_6.innerHTML = `outcome: <code>${outcomeCompOp_6}</code>`;
 // /////////////////////////////////////////////////////////////////////
 
-// Number Operators: !== ---------------------------------------------
+// Comparison Operators: !== ---------------------------------------------
 let codeCompOpDiv_7 = document.getElementById("compOpCode_7");
 let outcomeCompOpDiv_7 = document.getElementById("compOpOutput_7");
 
