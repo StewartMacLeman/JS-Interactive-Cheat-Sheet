@@ -7,12 +7,12 @@ let outcomeStringsDiv_1 = document.getElementById("stringsOutput_1");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_1 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.length;
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_1.innerHTML = codeStringsExample_1;
@@ -35,12 +35,12 @@ let outcomeStringsDiv_2 = document.getElementById("stringsOutput_2");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_2 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1[string_1.length];
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_2.innerHTML = codeStringsExample_2;
@@ -63,12 +63,12 @@ let outcomeStringsDiv_3 = document.getElementById("stringsOutput_3");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_3 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1[string_1.length-1];
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_3.innerHTML = codeStringsExample_3;
@@ -91,12 +91,12 @@ let outcomeStringsDiv_4 = document.getElementById("stringsOutput_4");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_4 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.indexOf("e");
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_4.innerHTML = codeStringsExample_4;
@@ -119,12 +119,12 @@ let outcomeStringsDiv_5 = document.getElementById("stringsOutput_5");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_5 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.indexOf("f");
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_5.innerHTML = codeStringsExample_5;
@@ -147,12 +147,12 @@ let outcomeStringsDiv_6 = document.getElementById("stringsOutput_6");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_6 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.slice(1);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_6.innerHTML = codeStringsExample_6;
@@ -175,12 +175,12 @@ let outcomeStringsDiv_7 = document.getElementById("stringsOutput_7");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_7 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.slice(5);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_7.innerHTML = codeStringsExample_7;
@@ -203,12 +203,12 @@ let outcomeStringsDiv_8 = document.getElementById("stringsOutput_8");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_8 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.slice(-1);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_8.innerHTML = codeStringsExample_8;
@@ -231,12 +231,12 @@ let outcomeStringsDiv_9 = document.getElementById("stringsOutput_9");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_9 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.slice(1, 3);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_9.innerHTML = codeStringsExample_9;
@@ -259,12 +259,12 @@ let outcomeStringsDiv_10 = document.getElementById("stringsOutput_10");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_10 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.slice(2, -1);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_10.innerHTML = codeStringsExample_10;
@@ -287,12 +287,12 @@ let outcomeStringsDiv_11 = document.getElementById("stringsOutput_11");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_11 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.slice(-3, string_1.length);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_11.innerHTML = codeStringsExample_11;
@@ -315,12 +315,12 @@ let outcomeStringsDiv_12 = document.getElementById("stringsOutput_12");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_12 =
 `<pre><code>
-let testOne = "hello";
+let varOne = "hello";
 
 function stringFunc(string_1) {
   return string_1.substring(0, 2);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_12.innerHTML = codeStringsExample_12;
@@ -343,12 +343,12 @@ let outcomeStringsDiv_13 = document.getElementById("stringsOutput_13");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_13 =
 `<pre><code>
-let testOne = "HeLLo";
+let varOne = "HeLLo";
 
 function stringFunc(string_1) {
   return string_1.toLowerCase();
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_13.innerHTML = codeStringsExample_13;
@@ -371,12 +371,12 @@ let outcomeStringsDiv_14 = document.getElementById("stringsOutput_14");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_14 =
 `<pre><code>
-let testOne = "HeLLo";
+let varOne = "HeLLo";
 
 function stringFunc(string_1) {
   return string_1.toUpperCase();
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_14.innerHTML = codeStringsExample_14;
@@ -399,12 +399,12 @@ let outcomeStringsDiv_15 = document.getElementById("stringsOutput_15");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_15 =
 `<pre><code>
-let testOne = "HeLLo";
+let varOne = "HeLLo";
 
 function stringFunc(string_1) {
   return string_1.replace("LL", "ll");
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_15.innerHTML = codeStringsExample_15;
@@ -427,12 +427,12 @@ let outcomeStringsDiv_16 = document.getElementById("stringsOutput_16");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_16 =
 `<pre><code>
-let testOne = "Hello";
+let varOne = "Hello";
 
 function stringFunc(string_1) {
   return string_1.concat(" World!");
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_16.innerHTML = codeStringsExample_16;
@@ -455,12 +455,12 @@ let outcomeStringsDiv_17 = document.getElementById("stringsOutput_17");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_17 =
 `<pre><code>
-let testOne = "Hello";
+let varOne = "Hello";
 
 function stringFunc(string_1) {
   return string_1.repeat(3);
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_17.innerHTML = codeStringsExample_17;
@@ -484,13 +484,13 @@ let outcomeStringsDiv_18b = document.getElementById("stringsOutput_18b");
 // Adds the example code to the html page. ----------------------------
 let codeStringsExample_18 =
 `<pre><code>
-let testOne = "Hello friends";
+let varOne = "Hello friends";
 
 function stringFunc(string_1) {
   let found = string_1.match(/friends/);
   return found;
 };
-let outcome = stringFunc(testOne);
+let outcome = stringFunc(varOne);
 </code></pre>`;
 
 codeStringsDiv_18.innerHTML = codeStringsExample_18;
