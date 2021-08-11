@@ -508,3 +508,36 @@ let outcomeStrings_18b = Array.isArray(outcomeStrings_18);
 outcomeStringsDiv_18.innerHTML = `outcome: <code>${outcomeStrings_18}</code>`;
 outcomeStringsDiv_18b.innerHTML = `Array.isArray(outcome): <code>${outcomeStrings_18b}</code>`;
 // ///////////////////////////////////////////////////////////////////////////
+
+// Strings: split() ----------------------------------------------
+let codeStringsDiv_19 = document.getElementById("stringsCode_19");
+let outcomeStringsDiv_19 = document.getElementById("stringsOutput_19");
+let outcomeStringsDiv_19b = document.getElementById("stringsOutput_19b");
+
+// Adds the example code to the html page. ----------------------------
+let codeStringsExample_19 =
+`<pre><code>
+let varOne = "Hello my friends";
+
+function stringFunc(string_1) {
+  let newArray = string_1.split(" ");
+  return newArray;
+};
+let outcome = stringFunc(varOne);
+</code></pre>`;
+
+codeStringsDiv_19.innerHTML = codeStringsExample_19;
+
+// Runs the function and adds the answer to the html page. -------
+let stringsOneEx19 = "Hello my friends";
+
+function stringFuncV19(string_1) {
+  let newArray = string_1.split(" ");
+  return newArray;
+};
+
+let outcomeStrings_19 = stringFuncV19(stringsOneEx19);
+let outcomeStrings_19b = Array.isArray(outcomeStrings_19);
+outcomeStringsDiv_19.innerHTML = `outcome: <code>${outcomeStrings_19}</code>`;
+outcomeStringsDiv_19b.innerHTML = `Array.isArray(outcome): <code>${outcomeStrings_19b}</code>`;
+// ///////////////////////////////////////////////////////////////////////////
