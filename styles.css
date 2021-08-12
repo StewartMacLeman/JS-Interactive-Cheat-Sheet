@@ -114,7 +114,6 @@ h1, h2, h3, h4, p, li, button {
 .codeExampleCont, .codeOutcomeCont {
   width: 100%;
   margin: 0 auto;
-  /* border: .15rem solid var(--greyBorder); */
   overflow-y: hidden;
   overflow-x: scroll;
   display: flex;
@@ -130,6 +129,19 @@ h1, h2, h3, h4, p, li, button {
 }
 code {
   padding: 0.25rem 0.5rem;
+}
+.marginB {
+  margin-bottom: 1.25rem;
+}
+.imageExampleCont {
+  width: 70%;
+  padding: .25rem;
+  border: .15rem solid black;
+  background-color: white;
+  border-radius: 10px;
+}
+.imageExampleCont img {
+  max-width: 100%;
 }
 /* The hide class. ---------------------------------------------*/
 .hide {
