@@ -37,20 +37,20 @@ let outcomeFunctionsDiv_2 = document.getElementById("functionsOutput_2");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_2 =
 `<pre><code>
-let funcVar = function () {
+let funcEx = function(){
   return "Hello!";
 };
-let outcome = funcVar();
+let outcome = funcEx();
 </code></pre>`;
 
 codeFunctionsDiv_2.innerHTML = codeFunctionsExample_2;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV1 = function () {
+let funcExV1 = function(){
   return "Hello!";
 };
 
-let outcomeFunctions_2 = funcVarV1();
+let outcomeFunctions_2 = funcExV1();
 outcomeFunctionsDiv_2.innerHTML = `outcome: <code>${outcomeFunctions_2}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -61,21 +61,21 @@ let outcomeFunctionsDiv_3 = document.getElementById("functionsOutput_3");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_3 =
 `<pre><code>
-let funcVar = function (name="Bobby") {
+let funcEx = function (name="Bobby") {
   return \`Hello \${name}!\`;
 };
-let outcome = funcVar();
+let outcome = funcEx();
 // No arguments provided!
 </code></pre>`;
 
 codeFunctionsDiv_3.innerHTML = codeFunctionsExample_3;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV2 = function (name="Bobby") {
+let funcExV2 = function (name="Bobby") {
   return `Hello ${name}!`
 };
 
-let outcomeFunctions_3 = funcVarV2();
+let outcomeFunctions_3 = funcExV2();
 outcomeFunctionsDiv_3.innerHTML = `outcome: <code>${outcomeFunctions_3}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -86,21 +86,21 @@ let outcomeFunctionsDiv_4 = document.getElementById("functionsOutput_4");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_4 =
 `<pre><code>
-let funcVar = function (name="Bobby") {
+let funcEx = function (name="Bobby") {
   return \`Hello \${name}!\`;
 };
-let outcome = funcVar("Mary");
+let outcome = funcEx("Mary");
 // Arguments provided!
 </code></pre>`;
 
 codeFunctionsDiv_4.innerHTML = codeFunctionsExample_4;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV4 = function (name="Bobby") {
+let funcExV4 = function (name="Bobby") {
   return `Hello ${name}!`;
 };
 
-let outcomeFunctions_4 = funcVarV4("Mary");
+let outcomeFunctions_4 = funcExV4("Mary");
 outcomeFunctionsDiv_4.innerHTML = `outcome: <code>${outcomeFunctions_4}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -111,20 +111,20 @@ let outcomeFunctionsDiv_5 = document.getElementById("functionsOutput_5");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_5 =
 `<pre><code>
-let funcVar = (greeting, name) => {
+let funcEx = (greeting, name) => {
   return \`\${greeting} \${name}!\`;
 };
-let outcome = funcVar("Morning", "Mary");
+let outcome = funcEx("Morning", "Mary");
 </code></pre>`;
 
 codeFunctionsDiv_5.innerHTML = codeFunctionsExample_5;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV5 = (greeting, name) => {
+let funcExV5 = (greeting, name) => {
   return `${greeting} ${name}!`;
 };
 
-let outcomeFunctions_5 = funcVarV5("Morning", "Mary");
+let outcomeFunctions_5 = funcExV5("Morning", "Mary");
 outcomeFunctionsDiv_5.innerHTML = `outcome: <code>${outcomeFunctions_5}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -135,17 +135,17 @@ let outcomeFunctionsDiv_6 = document.getElementById("functionsOutput_6");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_6 =
 `<pre><code>
-let funcVar = (greeting, name) => \`\${greeting} \${name}!\`;
+let funcEx = (greeting, name) => \`\${greeting} \${name}!\`;
 
-let outcome = funcVar("Hello", "Bobby");
+let outcome = funcEx("Hello", "Bobby");
 </code></pre>`;
 
 codeFunctionsDiv_6.innerHTML = codeFunctionsExample_6;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV6 = (greeting, name) => `${greeting} ${name}!`;
+let funcExV6 = (greeting, name) => `${greeting} ${name}!`;
 
-let outcomeFunctions_6 = funcVarV6("Hello", "Bobby");
+let outcomeFunctions_6 = funcExV6("Hello", "Bobby");
 outcomeFunctionsDiv_6.innerHTML = `outcome: <code>${outcomeFunctions_6}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -156,17 +156,17 @@ let outcomeFunctionsDiv_7 = document.getElementById("functionsOutput_7");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_7 =
 `<pre><code>
-let funcVar = (name) => \`Hello \${name}!\`;
+let funcEx = (name) => \`Hello \${name}!\`;
 
-let outcome = funcVar("Mary");
+let outcome = funcEx("Mary");
 </code></pre>`;
 
 codeFunctionsDiv_7.innerHTML = codeFunctionsExample_7;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV7 = (name) => `Hello ${name}!`;
+let funcExV7 = (name) => `Hello ${name}!`;
 
-let outcomeFunctions_7 = funcVarV7("Mary");
+let outcomeFunctions_7 = funcExV7("Mary");
 outcomeFunctionsDiv_7.innerHTML = `outcome: <code>${outcomeFunctions_7}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -177,17 +177,17 @@ let outcomeFunctionsDiv_8 = document.getElementById("functionsOutput_8");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_8 =
 `<pre><code>
-let funcVar = name => \`Hello \${name}!\`;
+let funcEx = name => \`Hello \${name}!\`;
 
-let outcome = funcVar("Bobby");
+let outcome = funcEx("Bobby");
 </code></pre>`;
 
 codeFunctionsDiv_8.innerHTML = codeFunctionsExample_8;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV8 = name => `Hello ${name}!`;
+let funcExV8 = name => `Hello ${name}!`;
 
-let outcomeFunctions_8 = funcVarV8("Bobby");
+let outcomeFunctions_8 = funcExV8("Bobby");
 outcomeFunctionsDiv_8.innerHTML = `outcome: <code>${outcomeFunctions_8}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -198,17 +198,17 @@ let outcomeFunctionsDiv_9 = document.getElementById("functionsOutput_9");
 // Adds the example code to the html page. ----------------------------
 let codeFunctionsExample_9 =
 `<pre><code>
-let funcVar = () => \`Hello!\`;
+let funcEx = () => \`Hello!\`;
 
-let outcome = funcVar();
+let outcome = funcEx();
 </code></pre>`;
 
 codeFunctionsDiv_9.innerHTML = codeFunctionsExample_9;
 
 // Runs the function and adds the answer to the html page. -------
-let funcVarV9 = () => `Hello!`;
+let funcExV9 = () => `Hello!`;
 
-let outcomeFunctions_9 = funcVarV9();
+let outcomeFunctions_9 = funcExV9();
 outcomeFunctionsDiv_9.innerHTML = `outcome: <code>${outcomeFunctions_9}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
 
@@ -230,4 +230,155 @@ codeFunctionsDiv_10.innerHTML = codeFunctionsExample_10;
 let outcomeFunctions_10 = (() => `Hello!`)();
 outcomeFunctionsDiv_10.innerHTML = `outcome: <code>${outcomeFunctions_10}</code>`;
 outcomeFunctionsDiv_10b.innerHTML = `IIFE: Immediately Invoked Function Expression`;
+// /////////////////////////////////////////////////////////////////////////////
+
+// Functions: call() V1  -----------------------------------------------
+let codeFunctionsDiv_11 = document.getElementById("functionsCode_11");
+let outcomeFunctionsDiv_11 = document.getElementById("functionsOutput_11");
+
+// Adds the example code to the html page. ----------------------------
+let codeFunctionsExample_11 =
+`<pre><code>
+let varOne = {
+  width: 2,
+  height: 3
+};
+
+function funcEx() {
+  let area = this.width * this.height;
+  return area;
+};
+let outcome = funcEx.call(varOne);
+</code></pre>`;
+
+codeFunctionsDiv_11.innerHTML = codeFunctionsExample_11;
+
+// Runs the function and adds the answer to the html page. -------
+let varOneEx11 = {
+  width: 2,
+  height: 3
+};
+
+function funcExV11() {
+  let area = this.width * this.height;
+  return area;
+};
+
+let outcomeFunctions_11 = funcExV11.call(varOneEx11);
+outcomeFunctionsDiv_11.innerHTML = `outcome: <code>${outcomeFunctions_11}</code>`;
+// /////////////////////////////////////////////////////////////////////////////
+
+// Functions: call() V2  -----------------------------------------------
+let codeFunctionsDiv_12 = document.getElementById("functionsCode_12");
+let outcomeFunctionsDiv_12 = document.getElementById("functionsOutput_12");
+
+// Adds the example code to the html page. ----------------------------
+let codeFunctionsExample_12 =
+`<pre><code>
+let varOne = {
+  width: 2,
+  height: 3
+};
+
+function funcEx(price) {
+  let area = this.width * this.height;
+  let totalCost = area * price;
+  return totalCost;
+};
+let outcome = funcEx.call(varOne, 2);
+</code></pre>`;
+
+codeFunctionsDiv_12.innerHTML = codeFunctionsExample_12;
+
+// Runs the function and adds the answer to the html page. -------
+let varOneEx12 = {
+  width: 2,
+  height: 3
+};
+
+function funcExV12(price) {
+  let area = this.width * this.height;
+  let totalCost = area * price;
+  return totalCost;
+};
+
+let outcomeFunctions_12 = funcExV12.call(varOneEx12, 2);
+outcomeFunctionsDiv_12.innerHTML = `outcome: <code>${outcomeFunctions_12}</code>`;
+// /////////////////////////////////////////////////////////////////////////////
+
+// Functions: apply() V1  -----------------------------------------------
+let codeFunctionsDiv_13 = document.getElementById("functionsCode_13");
+let outcomeFunctionsDiv_13 = document.getElementById("functionsOutput_13");
+
+// Adds the example code to the html page. ----------------------------
+let codeFunctionsExample_13 =
+`<pre><code>
+let varOne = {
+  width: 2,
+  height: 3
+};
+
+function funcEx() {
+  let area = this.width * this.height;
+  return area;
+};
+let outcome = funcEx.apply(varOne);
+</code></pre>`;
+
+codeFunctionsDiv_13.innerHTML = codeFunctionsExample_13;
+
+// Runs the function and adds the answer to the html page. -------
+let varOneEx13 = {
+  width: 2,
+  height: 3
+};
+
+function funcExV13() {
+  let area = this.width * this.height;
+  return area;
+};
+
+let outcomeFunctions_13 = funcExV13.apply(varOneEx13);
+outcomeFunctionsDiv_13.innerHTML = `outcome: <code>${outcomeFunctions_13}</code>`;
+// /////////////////////////////////////////////////////////////////////////////
+
+// Functions: apply() V2  -----------------------------------------------
+let codeFunctionsDiv_14 = document.getElementById("functionsCode_14");
+let outcomeFunctionsDiv_14 = document.getElementById("functionsOutput_14");
+
+// Adds the example code to the html page. ----------------------------
+let codeFunctionsExample_14 =
+`<pre><code>
+let varOne = {
+  width: 2,
+  height: 3
+};
+let varTwo = [2, 1.25];
+
+function funcEx(price, tax) {
+  let area = this.width * this.height;
+  let totalCost = area * price * tax;
+  return totalCost;
+};
+let outcome = funcEx.apply(varOne, ...varTwo);
+// Using the Spread Operator!
+</code></pre>`;
+
+codeFunctionsDiv_14.innerHTML = codeFunctionsExample_14;
+
+// Runs the function and adds the answer to the html page. -------
+let varOneEx14 = {
+  width: 2,
+  height: 3
+};
+let costs = [2, 1.25];
+
+function funcExV14(price, tax) {
+  let area = this.width * this.height;
+  let totalCost = area * price * tax;
+  return totalCost;
+};
+
+let outcomeFunctions_14 = funcExV14.call(varOneEx12, ...costs);
+outcomeFunctionsDiv_14.innerHTML = `outcome: <code>${outcomeFunctions_14}</code>`;
 // /////////////////////////////////////////////////////////////////////////////
