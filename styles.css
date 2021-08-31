@@ -28,7 +28,7 @@ li { font-size: 1.5rem; }
 button { font-size: 1.25rem; }
 
 h1, h2, h3, h4, p, li, button {
-  font-family: helvetica, tahoma, serif;
+  font-family: helvetica, tahoma, sans-serif;
   text-align: center;
   margin: 0 auto;
   padding: .25rem;
