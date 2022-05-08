@@ -112,7 +112,7 @@ let varOne = 3;
 function checkValue(var_1) {
   if (var_1 > 3){
     return "I'm over 3!";
-  } if else (var_1 == 3) {
+  } else if (var_1 == 3) {
     return "I'm 3!";
   } else {
     return "Not over 3!";
