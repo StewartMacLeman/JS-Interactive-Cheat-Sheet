@@ -7,7 +7,7 @@ This is an interactive JavaScript cheat-sheet, to be used as a quick refresher.
 * The option to click a button per code sample, revealing the outcome of the code.
 
 ---
-## Build with:
+## Built with:
 * JavaScript
 * CSS
 * HTML
