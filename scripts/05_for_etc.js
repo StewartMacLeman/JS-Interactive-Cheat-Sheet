@@ -90,6 +90,7 @@ function loopThrough(array_1) {
     words = words + " ";
   }
   return words;
+}
 let outcome = loopThrough(varOne);
 </code></pre>`;
 
@@ -128,6 +129,7 @@ function loopThrough(array_1) {
     word = word + letter.toUpperCase();
   }
   return word;
+}
 let outcome = loopThrough(varOne);
 </code></pre>`;
 
@@ -167,6 +169,7 @@ function loopThrough(object_1) {
     numbers = numbers + object_1[number] + " ";
   }
   return numbers;
+}
 let outcome = loopThrough(varOne);
 </code></pre>`;
 
@@ -204,10 +207,11 @@ function loopThrough(capacity) {
   let liquid = 0;
   let cup = "";
   while (liquid <= capacity){
-    cup = cup + "Glug ";
+    cup = cup + " Glug";
     liquid++;
   }
   return cup + ".";
+}
 let outcome = loopThrough(varOne);
 </code></pre>`;
 
@@ -220,7 +224,7 @@ function loopThroughV6(capacity) {
   let liquid = 0;
   let cup = "";
   while (liquid <= capacity){
-    cup = cup + "Glug ";
+    cup = cup + " Glug";
     liquid++;
   }
   return cup + ".";
@@ -243,10 +247,11 @@ function loopThrough(capacity) {
   let liquid = 0;
   let cup = "";
   while (liquid != capacity){
-    cup = cup + "Glug ";
+    cup = cup + " Glug";
     liquid++;
   }
   return cup + ".";
+}
 let outcome = loopThrough(varOne);
 </code></pre>`;
 
@@ -259,7 +264,7 @@ function loopThroughV7(capacity) {
   let liquid = 0;
   let cup = "";
   while (liquid != capacity){
-    cup = cup + "Glug ";
+    cup = cup + " Glug";
     liquid++;
   }
   return cup + ".";
@@ -282,10 +287,11 @@ function loopThrough(capacity) {
   let liquid = 0;
   let cup = "";
   do {
-    cup = cup + "Glug ";
+    cup = cup + " Glug";
     liquid++;
   } while (liquid <= capacity);
   return cup + ".";
+}
 let outcome = loopThrough(varOne);
 </code></pre>`;
 
@@ -298,7 +304,7 @@ function loopThroughV8(capacity) {
   let liquid = 0;
   let cup = "";
   do {
-    cup = cup + "Glug ";
+    cup = cup + " Glug";
     liquid++;
   } while (liquid <= capacity);
   return cup + ".";

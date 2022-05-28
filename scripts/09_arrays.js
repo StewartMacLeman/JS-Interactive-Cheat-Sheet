@@ -833,6 +833,7 @@ function arrayFunc(var_1) {
   var_1.sort( function(a, b) {
     return b - a;
   });
+  return var_1;
 };
 let outcome = arrayFunc(varOne);
 </code></pre>`;

@@ -16,7 +16,7 @@ let varOne = {
     street_name: "Main Street",
     town: "Madeupville",
     "post code": "ABC 123"
-  };
+  }
 };
 
 function objectFunc(var_1) {
@@ -64,7 +64,7 @@ let varOne = {
     street_name: "Main Street",
     town: "Madeupville",
     "post code": "ABC 123"
-  };
+  }
 };
 
 function objectFunc(var_1) {
@@ -112,7 +112,7 @@ let varOne = {
     street_name: "Main Street",
     town: "Madeupville",
     "post code": "ABC 123"
-  };
+  }
 };
 
 function objectFunc(var_1) {
@@ -160,7 +160,7 @@ let varOne = {
     street_name: "Main Street",
     town: "Madeupville",
     "post code": "ABC 123"
-  };
+  }
 };
 
 function objectFunc(var_1) {
@@ -427,7 +427,7 @@ function Person(age, gender, nationality){
 let varOne = new Person(25, "female", "Mexican");
 
 function objectFunc(var_1) {
-  return var_1.howOld;
+  return var_1.howOld();
 };
 let outcome = objectFunc(varOne);
 </code></pre>`;
